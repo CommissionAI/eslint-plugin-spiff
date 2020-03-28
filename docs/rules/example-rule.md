@@ -1,6 +1,6 @@
-# xxxx/example-rule
+# spiff/example-rule
 > An example rule.
-> - ⭐️ This rule is included in `plugin:xxxx/recommended` preset.
+> - ⭐️ This rule is included in `plugin:spiff/recommended` preset.
 
 This is an example.
 

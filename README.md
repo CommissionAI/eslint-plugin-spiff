@@ -28,14 +28,14 @@ Below is an example of README.
 
 ----
 
-# eslint-plugin-xxxx (template)
+# eslint-plugin-spiff (template)
 
 <!--
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-xxxx.svg)](https://www.npmjs.com/package/eslint-plugin-xxxx)
-[![Downloads/month](https://img.shields.io/npm/dm/eslint-plugin-xxxx.svg)](http://www.npmtrends.com/eslint-plugin-xxxx)
-[![Build Status](https://travis-ci.org/mysticatea/eslint-plugin-xxxx.svg?branch=master)](https://travis-ci.org/mysticatea/eslint-plugin-xxxx)
-[![Coverage Status](https://codecov.io/gh/mysticatea/eslint-plugin-xxxx/branch/master/graph/badge.svg)](https://codecov.io/gh/mysticatea/eslint-plugin-xxxx)
-[![Dependency Status](https://david-dm.org/mysticatea/eslint-plugin-xxxx.svg)](https://david-dm.org/mysticatea/eslint-plugin-xxxx)
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-spiff.svg)](https://www.npmjs.com/package/eslint-plugin-spiff)
+[![Downloads/month](https://img.shields.io/npm/dm/eslint-plugin-spiff.svg)](http://www.npmtrends.com/eslint-plugin-spiff)
+[![Build Status](https://travis-ci.org/mysticatea/eslint-plugin-spiff.svg?branch=master)](https://travis-ci.org/mysticatea/eslint-plugin-spiff)
+[![Coverage Status](https://codecov.io/gh/mysticatea/eslint-plugin-spiff/branch/master/graph/badge.svg)](https://codecov.io/gh/mysticatea/eslint-plugin-spiff)
+[![Dependency Status](https://david-dm.org/mysticatea/eslint-plugin-spiff.svg)](https://david-dm.org/mysticatea/eslint-plugin-spiff)
 -->
 
 A template for ESLint plugins.
@@ -45,7 +45,7 @@ A template for ESLint plugins.
 Use [npm](https://www.npmjs.com/) or a compatibility tool to install.
 
 ```
-$ npm install --save-dev eslint eslint-plugin-xxxx
+$ npm install --save-dev eslint eslint-plugin-spiff
 ```
 
 ### Requirements
@@ -59,25 +59,25 @@ Write your config file such as `.eslintrc.yml`.
 
 ```yml
 plugins:
-  - xxxx
+  - spiff
 rules:
-  xxxx/example-rule: error
+  spiff/example-rule: error
 ```
 
 See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 
 ## Configs
 
-- `xxxx/recommended` ... enables the recommended rules.
+- `spiff/recommended` ... enables the recommended rules.
 
 ## Rules
 
 <!--RULE_TABLE_BEGIN-->
 ### Stylistic Issues
 
-| Rule ID | Description |    |
-|:--------|:------------|:--:|
-| [xxxx/example-rule](./docs/rules/example-rule.md) | An example rule. | ⭐️ |
+| Rule ID                                           | Description      |       |
+| :------------------------------------------------ | :--------------- | :---: |
+| [spiff/example-rule](./docs/rules/example-rule.md) | An example rule. |  ⭐️   |
 
 <!--RULE_TABLE_END-->
 

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-xxxx",
+  "name": "eslint-plugin-spiff",
   "version": "1.0.0",
   "description": "",
   "engines": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/???/eslint-plugin-xxxx.git"
+    "url": "git+https://github.com/???/eslint-plugin-spiff.git"
   },
   "keywords": [
     "eslint",
@@ -44,7 +44,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/???/eslint-plugin-xxxx/issues"
+    "url": "https://github.com/???/eslint-plugin-spiff/issues"
   },
-  "homepage": "https://github.com/???/eslint-plugin-xxxx#readme"
+  "homepage": "https://github.com/???/eslint-plugin-spiff#readme"
 }
