@@ -5,11 +5,11 @@ Spiff's custom ESLint rules.
 ## Installation
 
 ```
-$ yarn add --dev eslint CommissionAI/eslint-plugin-spiff@latest
+$ yarn add --dev eslint CommissionAI/eslint-plugin-spiff#latest
 ```
 
 ```
-$ npm install --save-dev eslint CommissionAI/eslint-plugin-spiff@latest
+$ npm install --save-dev eslint CommissionAI/eslint-plugin-spiff#latest
 ```
 
 ### Requirements
