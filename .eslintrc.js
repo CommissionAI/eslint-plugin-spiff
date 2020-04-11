@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 
 module.exports = {
   root: true,
@@ -31,6 +31,9 @@ module.exports = {
     ],
     "eslint-plugin/test-case-shorthand-strings": "error",
 
+    // modified
+    "no-use-before-define": ["error", { functions: false }],
+
     // disabled
     "require-jsdoc": "off",
   },
@@ -42,4 +45,4 @@ module.exports = {
       },
     },
   ],
-};
+}

@@ -42,6 +42,7 @@ See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 | Rule ID | Description |    |
 |:--------|:------------|:--:|
 | [spiff/import-align](./docs/rules/import-align.md) | Require `from` keywords to be aligned. | ⭐️✒️ |
+| [spiff/jsx-attribute-align](./docs/rules/jsx-attribute-align.md) | Align the attributes of multi-line JSX elements. | ⭐️✒️ |
 
 <!--RULE_TABLE_END-->
 

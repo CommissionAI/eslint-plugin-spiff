@@ -8,7 +8,6 @@ const parserOptions = { sourceType: "module", ecmaVersion: 2015 }
 const ruleTester = new RuleTester({ parserOptions })
 
 ruleTester.run("import-align", rule, {
-  // --------------------------------------------------------------------------------
   valid: [
     `
 import foo from 'foo';
