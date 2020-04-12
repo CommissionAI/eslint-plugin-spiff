@@ -17,7 +17,7 @@ new RuleTester({ parserOptions }).run("jsx-attribute-align", rule, {
 
     `<Component key={key}></Component>`,
 
-    `<Component key={key} attr="value" />`,
+    `<Component {...spread} boolean key={key} attr="value" />`,
 
     `<Component key={key}
      />`,
@@ -29,6 +29,13 @@ new RuleTester({ parserOptions }).run("jsx-attribute-align", rule, {
     `<MultiLine
        a = {a}
        b = {b}
+     />`,
+
+    `<MultiLine
+       a = {a}
+       b = {b}
+       boolean
+       {...spread}
      />`,
 
     `<MultiLine
@@ -57,11 +64,15 @@ new RuleTester({ parserOptions }).run("jsx-attribute-align", rule, {
 <MultiLine
   b={b}
   c={c}
+  boolean
+  {...spread}
 />`,
       output: `
 <MultiLine
   b = {b}
   c = {c}
+  boolean
+  {...spread}
 />`,
       errors: [
         { message: "Unaligned import statement." },
