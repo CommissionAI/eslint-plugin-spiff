@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-spiff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "engines": {
     "node": ">=12.12.0"
