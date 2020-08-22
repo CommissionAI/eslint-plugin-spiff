@@ -5,11 +5,11 @@ Spiff's custom ESLint rules.
 ## Installation
 
 ```
-$ yarn add --dev eslint CommissionAI/eslint-plugin-spiff#latest
+$ yarn add --dev eslint SpiffInc/eslint-plugin-spiff#latest
 ```
 
 ```
-$ npm install --save-dev eslint CommissionAI/eslint-plugin-spiff#latest
+$ npm install --save-dev eslint SpiffInc/eslint-plugin-spiff#latest
 ```
 
 ### Requirements
@@ -39,10 +39,10 @@ See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 <!--RULE_TABLE_BEGIN-->
 ### Stylistic Issues
 
-| Rule ID | Description |    |
-|:--------|:------------|:--:|
-| [spiff/import-align](./docs/rules/import-align.md) | Require `from` keywords to be aligned. | ⭐️✒️ |
-| [spiff/jsx-attribute-align](./docs/rules/jsx-attribute-align.md) | Align the attributes of multi-line JSX elements. | ⭐️✒️ |
+| Rule ID                                                          | Description                                      |       |
+| :--------------------------------------------------------------- | :----------------------------------------------- | :---: |
+| [spiff/import-align](./docs/rules/import-align.md)               | Require `from` keywords to be aligned.           |  ⭐️✒️   |
+| [spiff/jsx-attribute-align](./docs/rules/jsx-attribute-align.md) | Align the attributes of multi-line JSX elements. |  ⭐️✒️   |
 
 <!--RULE_TABLE_END-->
 
